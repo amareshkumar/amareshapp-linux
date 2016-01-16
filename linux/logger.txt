@@ -1,0 +1,2249 @@
+MyString 1-C-tor
+
+Hi There, 
+MyString D-tor
+
+MyString 1-C-tor
+
+Hi There, 
+ + 
+I'm Amaresh
+MyString D-tor
+
+MyString 1-C-tor
+
+Hi There, 
+ + 
+I'm Amaresh
+After appending: 
+Hi There, I'm Amaresh
+MyString D-tor
+
+MyString 1-C-tor
+
+Hi There, 
+ + 
+I'm Amaresh
+After appending: 
+Hi There, I'm Amaresh
+MyString D-tor
+
+MyString 1-C-tor
+
+Hi There, 
+ + 
+I'm Amaresh
+After appending: 
+Hi There, I'm Amaresh
+MyString D-tor
+
+Inside MyStringReverse func...
+The string to reverse is: 
+Hi, how are you
+Before the loop for reverting the string
+
+Inside MyStringReverse func...
+The value of mystr is: 
+Hi, how are you
+Before the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+uoy era woh ,iH
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+uoy era woh ,iH
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+uoy era woh ,iH
+Before loop
+Before loop
+Before assignment
+Before loop
+Before assignment
+condition check
+Before assignment
+condition check
+Before assignment
+condition check
+Before assignment
+condition check
+Before assignment
+condition check
+Before loop
+Before assignment
+condition check
+Before assignment
+condition check
+The value of revSubStr: 
+H
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+H`(€
+Before assignment
+condition check
+Before assignment
+condition check
+Before assignment
+condition check
+The value of revSubStr: 
+H
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+H`(€
+Before assignment
+condition check
+Before loop
+The value of revSubStr: 
+Hi, 
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+ ,iH
+The value of revSubStr: 
+Hi, how 
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+ woh ,iHFðß
+The value of revSubStr: 
+Hi, how are 
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+ era woh ,iH
+Before loop
+Before loop
+Before loop
+Before loop
+Before loop
+The value of revSubStr: 
+H
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+H`(€
+The value of revSubStr: 
+H
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+H`(€
+The value of revSubStr: 
+H
+Inside MyStringReverse func...
+Before the loop for reverting the string
+
+After the loop for reverting the string
+H`(€
+Before loop
+Before loop
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Before loop
+Smart pointer practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+Smart pointer practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+a Tiger is just born!
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+AFter resetting memory for shared pointer: 
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Smart pointers practises
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+value of th1: 
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Before loop
+The value of revSubStr: 
+
+The value of revSubStr: 
+
+The value of revSubStr: 
+
+Time now is: 
+Time now is: 
+Time now is: 
+Time now is: 
+Time now is: 
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Time now is: 
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Time now is: 
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Time now is: 
+6
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Time now is: 
+
+a Tiger is just born!
+
+a Tiger is just born!
+
+Using Shared Pointer
+My Shared Tiger
+
+Using Auto Pointer
+My Auto Tiger in C++11
+
+Doing more clarification on Shared and Unique smart pointers
+
+Destructor Called: Tiger
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+PRactising with Boost lib
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+PRactising with Boost lib
+
+Destructor Called: Tiger
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+a Tiger is just born!
+
+AFter resetting memory for shared pointer mytiger_sh2: 
+My Second Shared Tiger
+
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Destructor Called: Tiger
+
+Time now is: 
+!
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Time now is: 
+*
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Time now is: 
+$
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Time now is: 
+8
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Time now is: 
+4
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Time now is: 
+ 
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Time now is: 
+2
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Time now is: 
+1
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Time now is: 
+"
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Time now is: 
+"
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Using map and multimap
+
+Printing elements of map
+
+Time now is: 
+3
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Using map and multimap
+
+Printing elements of map
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Using map and multimap
+
+Printing elements of map
+
+Using mmap and multimmap
+
+Printing elements of mmap
+
+Time now is: 
+	
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Using map and multimap
+
+Printing elements of map
+
+Using mmap and multimmap
+
+Printing elements of mmap
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+Printing values: using iterator
+
+Using std::Set functionalities
+
+Using std::multiset functionalities
+
+Using map and multimap
+
+Printing elements of map
+
+Using mmap and multimmap
+
+Printing elements of mmap
+
+Time now is: 
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Mytiger
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Practising Template functions
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+a Tiger is just born!
+
+A special Tiger is born!
+
+Practising Template functions
+
+Destructor Called: Tiger
+
+Destructor Called: Tiger
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+A Tiger is just born!
+
+A Tiger died!!
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+A Tiger is just born!
+
+A Tiger died!!
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+
+Using Shared Pointer
+Using Auto Pointer
+Doing more clarification on Shared and Unique smart pointers
+
+After resetting memory for shared pointer: 
+It should Segmentation fault here
+ Disbaling following line
+AFter resetting memory for shared pointer mytiger_sh2: 
+this line " + If you see " + "with multiple + gives compilation error
+ To Fix
+
+Threading practises
+
+creating 2 threads
+
+Practising uses of Iterators
+End of container practises
+
+Practising Template functions
+
+Value returned from my_temp_function: 
+Hi TEmplate
+Threading revisited
+

@@ -3,167 +3,8 @@
 extern MyLogger* mylog;
 
 
-#define NUM_EMPLOYEES 2                   /* size of each array.    */
-
-struct employee {
-    int number;
-    int id;
-    char first_name[20];
-    char last_name[30];
-    char department[30];
-    int room_number;
-};
-
-/* global variable - our employees array, with 2 employees */
-struct employee employees[] = {
-    { 1, 12345678, "Amaresh 1", "cohen", "Accounting", 101},
-    { 2, 87654321, "Amaresh 2", "levy", "Programmers", 202}
-};
-
-/* global variable - employee of the day. */
-struct employee employee_of_the_day;
-
-/* function to copy one employee struct into another */
-void copy_employee(struct employee* from, struct employee* to)
-{
-    to->number = from->number;
-    to->id = from->id;
-    strcpy(to->first_name, from->first_name);
-    strcpy(to->last_name, from->last_name);
-    strcpy(to->department, from->department);
-    to->room_number = from->room_number;
-}
-
-/* function to be executed by the variable setting threads thread */
-void* do_loop(void* data)
-{
-    int my_num = *((int*)data);   /* thread identifying number         */
-
-    while (1) {
-        /* set employee of the day to be the one with number 'my_num'. */
-	copy_employee(&employees[my_num-1], &employee_of_the_day);
-    }
-}
-
-/* like any C program, program's execution begins in main */
-int main(int argc, char* argv[])
-{
-    int        i;              /* loop counter                          */
-    int        thr_id1;        /* thread ID for the first new thread    */
-    int        thr_id2;        /* thread ID for the second new thread   */
-    pthread_t  p_thread1;      /* first thread's structure              */
-    pthread_t  p_thread2;      /* second thread's structure             */
-    int        num1      = 1;  /* thread 1 employee number              */
-    int        num2      = 2;  /* thread 2 employee number              */
-    struct employee eotd;      /* local copy of 'employee of the day'.  */
-    struct employee* worker;   /* pointer to currently checked employee */
-
-    /* initialize employee of the day to first 1. */
-    copy_employee(&employees[0], &employee_of_the_day);
-
-    /* create a new thread that will execute 'do_loop()' with '1'       */
-    thr_id1 = pthread_create(&p_thread1, NULL, do_loop, (void*)&num1);
-    /* create a second thread that will execute 'do_loop()' with '2'    */
-    thr_id2 = pthread_create(&p_thread2, NULL, do_loop, (void*)&num2);
-
-    /* run a loop that verifies integrity of 'employee of the day' many */
-    /* many many times.....                                             */
-    for (i=0; i<60000; i++) {
-        /* save contents of 'employee of the day' to local 'worker'.    */
-        copy_employee(&employee_of_the_day, &eotd);
-	worker = &employees[eotd.number-1];
-
-        /* compare employees */
-	if (eotd.id != worker->id) {
-	    printf("mismatching 'id' , %d != %d (loop '%d')\n",
-		   eotd.id, worker->id, i);
-	    exit(0);
-	}
-	if (strcmp(eotd.first_name, worker->first_name) != 0) {
-	    printf("mismatching 'first_name' , %s != %s (loop '%d')\n",
-		   eotd.first_name, worker->first_name, i);
-	    exit(0);
-	}
-	if (strcmp(eotd.last_name, worker->last_name) != 0) {
-	    printf("mismatching 'last_name' , %s != %s (loop '%d')\n",
-		   eotd.last_name, worker->last_name, i);
-	    exit(0);
-	}
-	if (strcmp(eotd.department, worker->department) != 0) {
-	    printf("mismatching 'department' , %s != %s (loop '%d')\n",
-		   eotd.department, worker->department, i);
-	    exit(0);
-	}
-	if (eotd.room_number != worker->room_number) {
-	    printf("mismatching 'room_number' , %d != %d (loop '%d')\n",
-		   eotd.room_number, worker->room_number, i);
-	    exit(0);
-	}
-    }
-
-    printf("Glory, employees contents was always consistent\n");
-
-    return 0;
-}
-
-//void* do_loop(void* data){
-//
-//    int i;			/* counter, to print numbers */
-//    int j;			/* counter, for delay        */
-//    int me = *((int*)data);     /* thread identifying number */
-//
-//    for (i=0; i<10; i++) {
-//		for (j=0; j<50000000; j++) /* delay loop */
-//			;
-//			cout << "Thread with id:" << me <<" got " << i << endl;
-//    }
-//
-//    /* terminate the thread */
-//    pthread_exit(NULL);
-//}
-
-
-//int main(int argc, char* argv[]) {
-////    	cout << "==================================================\n";
-////    	MyString str;
-////    	char* desc;
-////
-////    	//desc = const_cast <char*> (str.get_desc());
-////    	cout <<"Desc: " << const_cast <char*> (str.get_desc()) << endl;
-////
-//////    	MyString str2 ("Amaresh Kumar");
-//////    	cout << "Value of str2[5]" << str2[5];
-//
-////	IntervalMapTest();
-////
-////	std::map<std::string, float> coll;
-////	std::map <std::string, float>::iterator pos;
-////
-////	coll["Amaresh"] = 1.0;
-////
-////	for (pos = coll.begin(); pos != coll.end(); ++pos ){
-////		cout << "key: " << pos->first << "\t" << "value: " << pos->second << endl;
-////	}
-//
-//	 	int        thr_id, thr_id2;         /* thread ID for the newly created thread */
-//	    pthread_t  p_thread;       /* thread's structure                     */
-//	    int        a         = 1;  /* thread 1 identifying number            */
-//	    int        b         = 2;  /* thread 2 identifying number            */
-//
-//	    /* create a new thread that will execute 'do_loop()' */
-//	    thr_id = pthread_create(&p_thread, NULL, do_loop, (void*)&a);
-//	    cout << "thr_id: " << thr_id << endl;
-//	    thr_id2 = pthread_create(&p_thread, NULL, do_loop, (void*)&b);
-//	    cout << "thr_id2: " << thr_id2 << endl;
-//	    /* run 'do_loop()' in the main thread as well */
-//	    do_loop((void*)&b);
-//
-//	    /* NOT REACHED */
-//
-//		return 0;
-//}
-
-
+int main(int argc, char* argv[]) {
+    	cout << "--------------------------------------------\n";
 
 #ifdef LOGGER
 
@@ -419,33 +260,50 @@ int main(int argc, char* argv[])
 #endif //LOGGER
 
 #ifdef SMART_PTR
-		auto sp_tring = make_shared < Triangle > (10, 8, 10, 4, 5);
-		std::cout << "==================================================\n";
-		cout << "\nArea of trianlge: " << sp_tring->get_area() << "\nAnd the Perimeter is: " << sp_tring->get_perimeter() << endl;
+		//auto sp_tring = make_shared < Triangle > (10, 8, 10, 4, 5);
+		//std::cout << "==================================================\n";
+		//cout << "\nArea of trianlge: " << sp_tring->get_area() << "\nAnd the Perimeter is: " << sp_tring->get_perimeter() << endl;
 
-		shared_ptr < Triangle > sp_tring2 = sp_tring;
-		cout << "\nArea of trianlge: " << sp_tring2->get_area() << "\nAnd the Perimeter is: " << sp_tring2->get_perimeter() << endl;
-		std::cout << "==================================================\n";
-		unique_ptr < Rectangle > auto_ptr_rec (new Rectangle (5, 10));
-		//cout << "Area of Rectangle: " << auto_ptr_rec->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec->get_perimeter() << endl;
+		//shared_ptr < Triangle > sp_tring2 = sp_tring;
+		//cout << "\nArea of trianlge: " << sp_tring2->get_area() << "\nAnd the Perimeter is: " << sp_tring2->get_perimeter() << endl;
+		//std::cout << "==================================================\n";
+		//unique_ptr < Rectangle > auto_ptr_rec (new Rectangle (5, 10));
+		////cout << "Area of Rectangle: " << auto_ptr_rec->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec->get_perimeter() << endl;
 
-		unique_ptr < Rectangle > auto_ptr_rec2 (move(auto_ptr_rec));
-		std::cout << "==================================================\n";
-		cout << "\nArea of Rectangle: " << auto_ptr_rec2->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec2->get_perimeter() << endl;
+		//unique_ptr < Rectangle > auto_ptr_rec2 (move(auto_ptr_rec));
+		//std::cout << "==================================================\n";
+		//cout << "\nArea of Rectangle: " << auto_ptr_rec2->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec2->get_perimeter() << endl;
 
-		auto_ptr_rec2.reset (new Rectangle (10, 2));
-		cout <<"After resetting auto_ptr_rec2\n";
-		cout << "\nArea of Rectangle: " << auto_ptr_rec2->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec2->get_perimeter() << endl;
-		std::cout << "==================================================\n";
+		//auto_ptr_rec2.reset (new Rectangle (10, 2));
+		//cout <<"After resetting auto_ptr_rec2\n";
+		//cout << "\nArea of Rectangle: " << auto_ptr_rec2->get_area() << "\nAnd the Perimeter is: " << auto_ptr_rec2->get_perimeter() << endl;
+		//std::cout << "==================================================\n";
 
-		cout <<" Using my own smart pointer:\n";
-		std::cout << "==================================================\n";
+		//cout <<" Using my own smart pointer:\n";
+		//std::cout << "==================================================\n";
 
-		SmartPtr < Triangle > pTriSmartPtr ( new Triangle (10, 8, 10, 4, 5) );
-		cout << "\nArea of trianlge: " << pTriSmartPtr->get_area() << "\nAnd the Perimeter is: " << pTriSmartPtr->get_perimeter() << endl;
-		SmartPtr < Rectangle > pRecSmartPtr (new Rectangle (5, 10));
-		cout << "\nArea of Rectangle: " << pRecSmartPtr->get_area() << "\nAnd the Perimeter is: " << pRecSmartPtr->get_perimeter() << endl;
-		std::cout << "==================================================\n";
+		//SmartPtr < Triangle > pTriSmartPtr ( new Triangle (10, 8, 10, 4, 5) );
+		//cout << "\nArea of trianlge: " << pTriSmartPtr->get_area() << "\nAnd the Perimeter is: " << pTriSmartPtr->get_perimeter() << endl;
+		//SmartPtr < Rectangle > pRecSmartPtr (new Rectangle (5, 10));
+		//cout << "\nArea of Rectangle: " << pRecSmartPtr->get_area() << "\nAnd the Perimeter is: " << pRecSmartPtr->get_perimeter() << endl;
+		//std::cout << "==================================================\n";
+
+		SmartPtr <Triangle> tri(new Triangle(10, 8, 10, 4, 5));
+		cout << "Area: " << tri->get_area() << endl;
+		cout <<"Perimeter: " << tri->get_perimeter() << endl;
+
+		SmartPtr <Triangle> tri2; 
+	
+		cout << "\nUsing assignment of two SmartPtr objects" << endl; 
+		tri2 = tri;
+		cout << "Area, using tri2: " << tri2->get_area() << endl;
+		cout <<"Perimeter, using tri2: " << tri2->get_perimeter() << endl;
+
+		cout << "\nUsing copy constructor two SmartPtr objects" << endl;
+		SmartPtr <Triangle> tri3 (tri);
+		cout << "Area, using tri2: " << tri3->get_area() << endl;
+		cout <<"Perimeter, using tri2: " << tri3->get_perimeter() << endl;
+
 
 #endif
 
@@ -495,7 +353,7 @@ int main(int argc, char* argv[])
 		cout << "The average of int array is: " << avg_arr_elements (int_arr, 5);
 		
 		
-		#endif //THREADING
+#endif //THREADING
 
 #ifdef LINKED_LIST
                 /*cout << "Linked List operations and their implementation\n";
@@ -706,7 +564,6 @@ int main(int argc, char* argv[])
 
 #endif //LINKEDLIST2
 
-	
 #ifdef INTERACTIVE
 	utility util;
 	util.start();
@@ -755,3 +612,6 @@ int main(int argc, char* argv[])
 	cout << "To Do" << endl;
 #endif //MYTHREAD
 
+	//getchar();
+	return 0;
+}

@@ -14,7 +14,7 @@
 using namespace std;
 
 //Implementation of smart pointers
-template <typename T> class SmartPtr {
+template <class T> class SmartPtr {
 	T* pData;
 	RefCount* reference;
 public:
@@ -28,16 +28,29 @@ public:
 		reference = new RefCount();
 		reference->AddRef();
 
-		//cout << "SmartPtr C-tor\n";
+		cout << "SmartPtr C-tor\n";
 	}
 	SmartPtr(T* data): pData(data), reference(0){
 		reference= new RefCount();
 
 		reference->AddRef();
-		//cout << "SmartPtr C-tor\n";
+		cout << "SmartPtr C-tor\n";
 	}
 	SmartPtr (const SmartPtr<T>& sp ): pData(sp.pData), reference(sp.reference){
-		//cout << "SmartPtr copy c-tor\n";
+		cout << "SmartPtr copy c-tor\n";
+	}
+	SmartPtr<T>& operator= (const SmartPtr<T>& rhs) {
+		if (this != &rhs) {
+			if (reference->DecRef() == 0) { 
+				delete pData; 
+				delete reference; 
+			}
+				pData = rhs.pData;
+				reference = rhs.reference;
+				reference->AddRef();
+		}
+		cout << "SmartPtr assign-op\n";
+		return *this; 
 	}
 	~SmartPtr(){
 		// Destructor
@@ -48,7 +61,7 @@ public:
 			delete pData;
 			delete reference;
 		}
-		//cout << "SmartPtr D-tor\n";
+		cout << "SmartPtr D-tor\n";
 	}
 };
 

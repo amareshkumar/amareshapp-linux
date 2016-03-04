@@ -8,24 +8,25 @@
 #ifndef REFCOUNT_H_
 #define REFCOUNT_H_
 
+#include "my_project_app.h"
+
 class RefCount
 {
 private:
     int count; // Reference count
 
 public:
-    void AddRef()
-    {
+    void AddRef(){
         // Increment the reference count if pointers to the same object increases
-        count++;
+		count++;
     }
 
-    int DecRef()
-    {
+    int DecRef(){
         // Decrement the reference count and
         // return the reference count.
         return --count;
     }
+	int ref_count() const { return count;  }
 };
 
 #endif /* REFCOUNT_H_ */
